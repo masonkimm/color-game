@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: #232323;
+  font-family: 'Avenir', 'Montserrat';
+}
+
+#buttons {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 7%;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  --webtkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  outline: none;
+}
+
+#message {
+  display: inline-block;
+  width: 50%;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+#heading,
+h2,
+h4,
+#message,
+#buttons,
+p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 4.5rem;
+  margin: 1rem 1rem;
+}
+
+#heading {
+  padding: 0.5rem;
+  margin-bottom: -1.1rem;
+}
+
+.selected {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.square {
+  width: 30%;
+  background-color: lightpink;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 25%;
+  transition: background 0.6s;
+  --webtkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+#container {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.rules {
+  width: 600px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-weight: normal
+}
+
+@media (max-width: 767px) {
+
+  button {
+    font-size: 0.5rem;
+  }
+
+  #message {
+    display: inline-block;
+    width: 40%;
+    letter-spacing: 1px;
+  }
+
+  #buttons {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin: 1rem 1rem;
+  }
+
+
+  #container {
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  .rules {
+    width: 300px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-weight: normal
+  }
+  
+}
