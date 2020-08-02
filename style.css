@@ -123,3 +123,27 @@ h2 {
   }
   
 }
+
+@media (max-width: 375px) {
+
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+  }
+
+  #message {
+    font-size: 14px;
+    display: inline-block;
+    width: 30%;
+    letter-spacing: 1px;
+  }
+
+  .rules {
+    width: 200px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: normal
+  }
+
+}
